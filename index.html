@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relationship</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div class="container d-flex align-items-center justify-content-between">
+        <div class="col-7 form-wrapper">
+            <form class="main-form" action="https://echo.htmlacademy.ru/" id="js-main-form">
+                <label for="name">Name</label>
+                <input class="js-name all-input" type="text" id="name">
+                <label for="surname">Surname</label>
+                <input class="js-surname all-input" type="text" id="surname">
+                <label for="age">Age</label>
+                <input class="js-age all-input" type="text" id="age">
+                <select class="js-select-relation mt-5 all-input mb-4" name="relationship" id="js-relationship"></select>
+                <button class="js-submit-btn btn-danger rounded-3" type="submit">Add Contact</button>
+            </form>
+        </div>
+
+        <div class="col-5">
+            <ul class="js-ready-list">
+                <h3>User Info:</h3>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="./script/main.js"></script>
+</body>
+
+</html>
