@@ -13,28 +13,28 @@
 <body>
 
     <div class="container d-flex align-items-center justify-content-between">
-        <div class="col-7 form-wrapper">
+        <div class="col-7 form-wrapper mt-5">
             <form class="main-form" action="https://echo.htmlacademy.ru/" id="js-main-form">
-                <label for="name">Name</label>
-                <input class="js-name all-input" type="text" id="name">
-                <label for="surname">Surname</label>
-                <input class="js-surname all-input" type="text" id="surname">
-                <label for="age">Age</label>
-                <input class="js-age all-input" type="text" id="age">
-                <select class="js-select-relation mt-5 all-input mb-4" name="relationship" id="js-relationship"></select>
-                <button class="js-submit-btn btn-danger rounded-3" type="submit">Add Contact</button>
+                <label class="name-label all-label fw-bold" for="name">Name</label>
+                <input class="js-name all-input border-0 rounded-3" type="text" id="name">
+                <label class="surname-label all-label fw-bold" for="surname">Surname</label>
+                <input class="js-surname all-input border-0 rounded-3" type="text" id="surname">
+                <label class="age-label all-label fw-bold" for="age">Age</label>
+                <input class="js-age all-input border-0 rounded-3" type="text" id="age">
+                <select class="select-relation js-select-relation all-label mt-5 all-input mb-4 rounded-3" name="relationship" id="js-relationship"></select>
+                <button class="submit-btn js-submit-btn rounded-3" type="submit">Add Contact</button>
             </form>
         </div>
 
         <div class="col-5">
-            <ul class="js-ready-list">
+            <ul class="ready-list  js-ready-list  list-unstyled">
                 <h3>User Info:</h3>
             </ul>
         </div>
     </div>
 
-
-    <script src="./script/main.js"></script>
+    <script src="./js/util.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

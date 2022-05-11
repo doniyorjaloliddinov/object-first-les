@@ -1,9 +1,54 @@
 
 .form-wrapper {
-    /* display: flex;
-    flex-direction: reverse; */
+    width: 350px;
+    height: 350px;
+    padding: 35px;
+    background-color: rgb(0, 255, 51);
+    border: 3px solid rgb(5, 149, 210);
+    border-radius: 45px;
 }
 
 .all-input {
     display: block;
+}
+
+.delete-btn {
+    width: 25px;
+    height: 25px;
+    margin-left: 150px;
+    background-color: transparent;
+    border: none;
+}
+
+.delete-img {
+    width: 25px;
+    height: 25px; 
+}
+
+.all-label {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+
+.select-relation {
+    color: rgb(255, 7, 7);
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.submit-btn {
+    background-color: rgb(0, 86, 120);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: bold;
+}
+
+.ready-items {
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    margin-top: 15px;
+    background-color: rgb(0, 255, 51);
+    border: 3px solid rgb(5, 149, 210);
+    border-radius: 45px;
 }
